@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'api',
     'rest_framework',
     'display',
+    'display2',
 ]
 
 MIDDLEWARE = [

@@ -17,6 +17,7 @@ def listing(request):
     return render(request, 'listing.html')
 
 
+
 def submitUser(request):
     email = request.GET['email']
     password = request.GET['password']
@@ -36,6 +37,8 @@ def submitUser(request):
     data = response.text
     return render(request, 'temp.html', {'data': data})
 
+
+
 def submitUser(request):
     email = request.GET['email']
     password = request.GET['password']
@@ -54,4 +57,3 @@ def submitUser(request):
 
     data = response.text
     return render(request, 'temp.html', {'data': data})
-
